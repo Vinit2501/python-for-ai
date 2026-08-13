@@ -172,7 +172,7 @@ for letter in first_name:
 
 colors = ["red", "blue", "green"]
 for color in colors:
-    print(f"I like {color}")
+    print(f"I like {color}, which is a beautiful color.")
 
 
 
