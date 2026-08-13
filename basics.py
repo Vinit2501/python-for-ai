@@ -6,7 +6,7 @@ Age
 10 - 5
 10 * 5
 10 / 5
-10 ** 5
+10**5
 Addition = 10 + 5
 Addition
 
@@ -24,7 +24,7 @@ last_name = "Kurhade"
 full_name = first_name + " " + last_name
 print(full_name)
 
-full_name = first_name + ' ' + last_name
+full_name = first_name + " " + last_name
 full_name
 
 long_dash = "-" * 15
@@ -106,14 +106,14 @@ else:
 age = 25
 has_license = True
 
-if age >= 18 and has_license:   # Both must be True
+if age >= 18 and has_license:  # Both must be True
     print("You can drive!")
 
-if age >= 26 or not has_license:          # At least one must be True
+if age >= 26 or not has_license:  # At least one must be True
     print("It's okay to drive but you should be careful.")
 
 raining = True
-if not raining:                 # Reverse the condition
+if not raining:  # Reverse the condition
     print("Let's go outside!")
 else:
     print("Better stay inside.")
@@ -130,8 +130,10 @@ if has_ticket:
     else:
         print("You cannot enter the concert. You are underage.")
 else:
-    print("You cannot enter the concert. You don't have a ticket." \
-    "Please buy a ticket first.")
+    print(
+        "You cannot enter the concert. You don't have a ticket."
+        "Please buy a ticket first."
+    )
 
 # loops (in python the counts start from 0)
 
@@ -156,7 +158,7 @@ for i in range(1, 6):
 
 # count by 2's
 
-for i in range(0,10,2):
+for i in range(0, 10, 2):
     print(i)
 
 # loop through text
@@ -173,6 +175,3 @@ for letter in first_name:
 colors = ["red", "blue", "green"]
 for color in colors:
     print(f"I like {color}")
-
-
-
